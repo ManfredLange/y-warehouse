@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+   warehouse:
+      container_name: warehouse-dev
+      hostname: warehouse-dev.local
+      build:
+         context: .
+      working_dir: /src
+      volumes:
+         - ..:/src:cached
+      command: >
+         bash -c "sleep infinity"
+      networks:
+         yannick:
+
+networks:
+   yannick:

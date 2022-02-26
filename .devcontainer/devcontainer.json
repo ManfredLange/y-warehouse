@@ -1,0 +1,16 @@
+{
+    "name": "warehouse",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "warehouse",
+    "workspaceFolder": "/src",
+    "extensions": [
+        "eamodio.gitlens",
+        "editorconfig.editorconfig",
+        "shd101wyy.markdown-preview-enhanced",
+        "vscjava.vscode-java-pack"
+    ],
+    "remoteUser": "dev",
+    "shutdownAction": "stopCompose"
+}
